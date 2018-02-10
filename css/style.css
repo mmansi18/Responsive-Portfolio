@@ -1,0 +1,122 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    text-align: left;
+    width: 100%;
+    line-height:30px;
+    box-sizing: border-box;
+}
+
+header{
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    background-color: #4aaaa5;
+    border-bottom: none;
+    height: 40px;
+    width: 400 px;
+    margin-bottom: none;
+    margin-left: 125px;
+    font-weight: bold;
+    font-size: 40px;
+    vertical-align: middle;
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+li{
+    display: inline;
+}
+
+p {
+	text-align: left;
+	font-family: 'Arial';
+	font-size: 12px;
+	color: #777777;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom: 3px solid #dddddd;
+}
+
+#bio-image{
+    float: left;
+    padding: 10px;
+}
+
+.project{
+    display: inline;
+
+}
+
+.project-title {
+	float: center;
+	position: relative;
+	width: auto;
+	height: 30px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+    text-align: center
+}    
+
+nav{
+    width: 270px;
+    float: right;
+    text-align: right;
+    margin-right: 125px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777
+}
+
+.main-container{
+    clear: both;
+    margin: 0 auto;
+    overflow: auto;
+    background-image: url("../images/subtle.jpg");
+    height: 100%;
+    width: 100%;
+    border-bottom: 5px solid #4aaaa5;
+}
+
+#main-bio, #project-portfolio, #contact{
+    height: auto;
+    padding: 20px;
+}
+ 
+#main-bio, #project-portfolio, #contact{
+    float:left;
+    text-align: left;
+    width: 650px;
+    height: auto;
+    margin-top: 30px;
+    margin-left:125px;
+    margin-bottom: 50px;
+    background-color:  #ffffff;
+}
+
+#social-links{
+    float: left;
+    padding: 10px;
+    margin-top: 30px;
+    width: 270px;
+    text-align: center;
+    margin-left: 80px;
+    background-color: #ffffff;
+}
+
+footer{
+    clear: both;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 18px;
+    height: 70px;
+    background-color: #666666;
+    width: 100%;
+    border-bottom: none;
+    color: #ffffff;
+    text-align: center;
+}
